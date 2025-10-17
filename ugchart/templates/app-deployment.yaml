@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: pythonapp
-          image: hunterzoro/pythonapp:latest
+          image: hunterzoro/pythonapp:latest .
           imagePullPolicy: Never
           ports:
             - containerPort: 5000
